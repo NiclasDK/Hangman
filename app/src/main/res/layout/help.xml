@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="Write 1 letter in the textfield and press &quot;ok&quot; to reveal if the letter is contained in the word. If you aren't right, you have 5 more chances to reveal the word until you have lost the game. If you beat the game and guess the word, you will see the message &quot;you won&quot;. Type a letter for the next word to reset the game."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="76dp"
+            android:id="@+id/textView4" />
+    </RelativeLayout>
+</LinearLayout>
